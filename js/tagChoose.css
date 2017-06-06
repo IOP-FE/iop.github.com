@@ -1,0 +1,64 @@
+/**
+ * 标签输入控件样式文件
+ * @author yuyouwen@baidu.com
+ */
+.ui-tagchoose {
+    height: auto;
+    border: 1px solid #ccc;
+    transition: border .5s ease;
+}
+.ui-tagchoose .ui-tagchoose-item {
+    float: left;
+    width: auto;
+    margin: 5px 0 5px 10px;
+    font-size: 14px;
+    background: #6472cc;
+    color: #fff;  
+}
+.ui-tagchoose .ui-tagchoose-item .label {
+    padding: 5px 3px 5px 6px;
+    white-space: pre;
+}
+.ui-tagchoose .ui-tagchoose-item .close {
+    display: inline-block;
+    margin-left: 3px;
+    padding: 5px 5px;
+    text-align: center;
+    cursor: pointer;
+}
+.ui-tagchoose .ui-tagchoose-item .close:hover {
+    background: #798af7;
+}
+.ui-tagchoose .highlight {
+    background: #c63;
+}
+.ui-tagchoose .ui-label {
+    float: left;
+    display: inline-block;
+    margin: 5px 8px;
+    padding: 8px 10px;
+    background: #91b8d0;
+    color: #fff;
+}
+.ui-tagchoose .tag-choose-input {
+    float: left;
+    width: 100px;
+    margin: 5px 0;
+    padding: 4px 10px;
+    border: none;
+    border: 0;
+    font-size: 14px;
+    outline: none;
+}
+.ui-tagchoose:before,
+.ui-tagchoose:after {
+    content: "";
+    display: table;
+}
+.ui-tagchoose:after {
+    clear: both;
+}
+.ui-tagchoose-focused {
+    border: 1px solid #4464c2;
+    transition: border .5s ease;
+}
